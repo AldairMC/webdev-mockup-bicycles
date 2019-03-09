@@ -1,0 +1,53 @@
+.logo > img{
+    width: 150px;
+    height: 55px;
+    margin: 30px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.presentacion{
+    height: 300px;
+}
+
+.img-der{
+    background-image: url("https://img.clasf.mx/2016/04/22/Hermosa-Bicicleta-Menta-con-Beige-tipo-Vintage-Canasta-de-20160422182330.jpg");
+    background-size: cover;
+
+}
+
+.img-izq{
+    background-image: linear-gradient(rgba(138, 134, 139, 0.6), rgba(212, 202, 216, 0.5)),
+                        url("https://dnb2eg0emsxdz.cloudfront.net/cdn/13/images/curso-online-mecanico-bicicletas_l_primaria_1.jpg");
+    background-size: cover;
+    
+
+}
+
+.desc-pres{
+    height: 150px;
+}
+
+.barra-baja{
+    width: 20%;
+    color: wheat;
+}
+
+.desc-pres > p{
+    color: black;
+    text-align: justify;
+    font-size: 10px;
+    padding: 10px;
+    margin: 5px !important;
+}
+
+.presentacion-cen{
+    height: 150px;
+    background-image: url("https://img.blogs.es/circulaseguropt/wp-content/uploads/2018/06/Bicicleta-3.jpg");
+    background-size: cover;
+}
