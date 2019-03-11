@@ -1,3 +1,7 @@
+.container-m{
+    padding: 0 !important;
+}
+
 .navegation{
     color: rgb(29, 28, 28) !important;
     font-family: sans-serif;
@@ -7,9 +11,16 @@
 }
 
 .col-fondo{
-    background: linear-gradient(to right, rgba(241, 243, 248, 0.8) , rgba(228, 226, 232, 0.7));
+    background: linear-gradient(to right,rgba(241, 243, 248, 0.8), rgba(228, 226, 232, 0.7));
 }
 
+.hero{
+    background-image: url("../img/hero.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
 
 
 .logo > img{
