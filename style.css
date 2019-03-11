@@ -18,8 +18,7 @@
     background-image: url("../img/hero.png");
     height: 700px;
     background-repeat: no-repeat;
-    background-size: contain;
-    
+    background-size: cover; 
 }
 
 
