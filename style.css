@@ -40,7 +40,8 @@
 }
 
 .hero2{
-    background-image: url("./img/hero2.png")
+    background-image: url("./img/hero2.png");
+    
 }
 
 .vintage{
@@ -63,7 +64,18 @@
      background-size: cover;
  }
 
+ .img-boriosa{
+    height: 200px;
+    background-image: url("./img/img2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
 
+ .hero3{
+     background-image: url("./img/hero3.png"), 
+     linear-gradient(rgba(117, 126, 133, 0.9), rgba(97, 111, 122, 0.9));
+     
+ }
 
 .logo > img{
     width: 150px;
