@@ -37,8 +37,32 @@
 .generation > img, h5, p{
     margin-top: 30px !important;
     
-
 }
+
+.hero2{
+    background-image: url("./img/hero2.png")
+}
+
+.vintage{
+    height: 600px;
+    padding: 0 !important;
+}
+ .text-vintage{
+     height: 400px;
+     padding: 70px 40px 50px 40px;
+ }
+
+ .text-vintage > p{
+     text-align: justify;
+ }
+
+ .img-vintage{
+     height: 200px;
+     background-image: url("./img/img1.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
 
 
 .logo > img{
