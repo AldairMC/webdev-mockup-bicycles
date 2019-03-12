@@ -16,8 +16,10 @@
 }
 
 .hero{
-    background-image: url("./img/heros.png"),
+    
+    background-image: url("./img/hero.png"),
                     linear-gradient(to right,rgba(241, 243, 248, 0.8), rgba(228, 226, 232, 0.7));
+    
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -77,56 +79,25 @@
      
  }
 
-.logo > img{
-    width: 150px;
-    height: 55px;
-    margin: 30px;
-    
-}
-
-.logo{
-    display: flex;
-    justify-content: center;
-}
-
-
-.presentacion{
-    height: 300px;
-}
-
-.img-der{
-    background-image: url("https://i-h2.pinimg.com/564x/12/03/f7/1203f7724257f27dbcc447c23fe2c573.jpg");
+.hero4{
+    background-image: url("./img/img3.png");
+    background-repeat: no-repeat;
     background-size: cover;
+} 
 
-}
-
-.img-izq{
-    background-image: linear-gradient(rgba(138, 134, 139, 0.6), rgba(212, 202, 216, 0.5)),
-                        url("https://dnb2eg0emsxdz.cloudfront.net/cdn/13/images/curso-online-mecanico-bicicletas_l_primaria_1.jpg");
+.hero5{
+    background-image: url("./img/img4.png");
+    background-repeat: no-repeat;
     background-size: cover;
-    
-
 }
 
-.desc-pres{
-    height: 150px;
-}
-
-.barra-baja{
-    width: 20%;
-    color: wheat;
-}
-
-.desc-pres > p{
-    color: black;
-    text-align: justify;
-    font-size: 10px;
-    padding: 10px;
-    margin: 5px !important;
-}
-
-.presentacion-cen{
-    height: 150px;
-    background-image: url("https://img.blogs.es/circulaseguropt/wp-content/uploads/2018/06/Bicicleta-3.jpg");
+.img-retro{
+    height: 200px;
+    background-image: url("./img/img5.png");
+    background-repeat: no-repeat;
     background-size: cover;
+}
+
+.page{
+    background: rgb(247, 247, 247);
 }
