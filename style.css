@@ -16,10 +16,28 @@
 }
 
 .hero{
-    background-image: url("./img/hero.png");
+    background-image: url("./img/heros.png"),
+                    linear-gradient(to right,rgba(241, 243, 248, 0.8), rgba(228, 226, 232, 0.7));
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover; 
+}
+
+.eje{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.generation{
+    padding: 100px;
+    background: rgb(247, 247, 247);
+    
+}
+
+.generation > img, h5, p{
+    margin-top: 30px !important;
+    
+
 }
 
 
