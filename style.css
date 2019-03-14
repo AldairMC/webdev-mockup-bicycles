@@ -25,6 +25,10 @@
     background-size: cover; 
 }
 
+.barra-baja{
+    width: 20%;
+}
+
 .eje{
     margin-left: 130px;
     margin-right: 130px;
@@ -100,4 +104,66 @@
 
 .page{
     background: rgb(247, 247, 247);
+    padding: 50px !important;
+}
+
+.bike-discover{
+    height: 400px;
+    padding: 0 !important;
+}
+
+.bike-hair-one{
+    background-image: url("./img/img6.png");
+    background-size: cover;
+    float: left;
+    height: 200px;
+}
+
+.bike-hair-two{
+    background-image: url("./img/img7.png");
+    background-size: cover;
+    float: left;
+    height: 200px;
+}
+
+.bike-hair-three{
+    background-image: url("./img/img8.png");
+    background-size: cover;
+    float: left;
+    height: 200px;
+}
+
+.bike-hair-four{
+    height: 400px;
+    background-image: url("./img/img9.png");
+    background-size: cover;
+    float: left;
+}
+
+.bike-hair-five{
+    height: 400px;
+    background-image: url("./img/img10.png");
+    background-size: cover;
+    float: left;
+}
+
+.bike-hair-six{
+    height: 200px;
+    background-image: linear-gradient(rgba(116, 187, 158, 0.9), rgba(116, 187, 158, 0.7)),
+                        url("./img/img11.png");
+    background-size: cover;
+}
+
+.bike-hair-seven{
+    height: 200px;
+    background-image: url("./img/img12.png");
+    background-size: cover;
+    float: left;
+}
+
+.bike-hair-eight{
+    height: 200px;
+    background-image: url("./img/img13.png");
+    background-size: cover;
+    float: left;
 }
