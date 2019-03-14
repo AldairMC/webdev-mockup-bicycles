@@ -167,3 +167,17 @@
     background-size: cover;
     float: left;
 }
+
+.btn-discover{
+    height: 150px;
+}
+
+.btn-discover-shop{
+    border: 2px solid gray;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+    
+    
+}
