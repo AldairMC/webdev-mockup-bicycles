@@ -188,6 +188,7 @@
 .stay-content > p{
     font-style: italic;
     color: gray;
+    font-weight: bold;
 }
 
 .btn-email{
@@ -204,3 +205,39 @@
     border: none;
 }
 
+.footer{
+    height: 300px;
+    background: rgb(247, 247, 247);
+
+}
+
+.footer-description{
+    padding: 0 !important;
+    color: gray;
+    margin: 0 !important;
+    line-height: 0px;
+}
+
+.redes > span{
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.tw:hover{
+    color: rgb(120, 205, 240);
+    transition-duration: 1s;
+}
+
+.fb:hover{
+    color: rgb(83, 123, 189);
+    transition-duration: 1s;
+}
+
+.pin:hover{
+    color: rgb(235, 87, 85);
+    transition-duration: 1s;
+}
