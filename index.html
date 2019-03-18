@@ -10,6 +10,7 @@
     
     <!-- Archivo externo style.css-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
 
     <!--BootStrap 4-->
     <link rel="stylesheet" 
@@ -26,24 +27,28 @@
 <body>
     
     <div class="container-fluid container-m">
+        <!--NavBar responsive-->
+        <div class="nave">
+            <header class="header">
+                <div class="logo">Logo</div>
+                <nav>
+                    <ul>
+                        <li><a href="">sdafas</a></li>
+                        <li><a href="">sdafas</a></li>
+                        <li><a href="">sdafas</a></li>
+                        <li><a href="">sdafas</a></li>
+                        <li><a href="">sdafas</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i> 
+                </div>
+            </header>
+        </div>
+        
+        
         <!--Navbar-->
-        <ul class="nav justify-content-center d-flex align-items-center col-fondo">
-            <li class="nav-item">
-                <a class="nav-link navegation" href="#">ABOUT US</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link navegation" href="#">WORK</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"><img src="img/Logo.png" alt="Logo"></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link navegation" href="#">SHOP</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link navegation" href="#">CONTACT</a>
-            </li>
-        </ul>
+            
 
         <!--Hero-->
         <div class="row">
@@ -209,7 +214,7 @@
         </div>
     </div>
 
-
+    
 
 
 
@@ -222,6 +227,18 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
             crossorigin="anonymous"></script>
+
+
+            <script type="text/javascript">
+                
+                $(document).ready(function(){
+                    $('.menu-toggle').click(function(){
+                        $('nav').toggleClass('active')
+                    })
+                })
+               
+            </script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
             crossorigin="anonymous"></script>
